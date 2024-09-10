@@ -1,0 +1,244 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "齐市人大积分信息管理系统",
+				"navigationStyle": "default",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "主页"
+			}
+		}, {
+			"path": "pages/login/register",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"navigationStyle": "default",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/login/reset",
+			"style": {
+				"navigationBarTitleText": "忘记密码",
+				"navigationStyle": "default",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/upload_meeting/upload_meeting",
+			"style": {
+				"navigationBarTitleText": "会议期间积分变动",
+				"navigationStyle": "default",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/upload_no_meeting/upload_no_meeting",
+			"style": {
+				"navigationBarTitleText": "闭会期间积分变动",
+				"navigationStyle": "default",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "preview/preview",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/my/editUserInfo",
+			"style": {
+				"navigationBarTitleText": "修改个人信息",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/administrator/userPointsChange/userPointsChange",
+			"style": {
+				"navigationBarTitleText": "积分变动",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/administrator/userPointsChange/meeting_info",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "uni_modules/a-pointsPreview/CustomComponent/CustomComponent",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "components/CustomComponent/CustomComponent",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/administrator/userPointsChange/no_meeting_info",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}
+
+		, {
+			"path": "pages/administrator/administrator_index",
+			"style": {
+				"navigationBarTitleText": "管理员主页",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/administrator/create_user",
+			"style": {
+				"navigationBarTitleText": "新建账号",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	    ,{
+            "path" : "pages/administrator/select_user_info/select_user_info",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "查询代表信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/administrator/select_user_info/show_user_info",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/administrator/add-participants/add-participants",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "批量录入活动参加人员",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/administrator/add-participants/meeting-participants",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "批量录入大会期间积分变动",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/administrator/register-audit",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "账号注册审核",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/administrator/add-participants/administrator-add-meeting",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/administrator/add-participants/no-meeting-participants",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "批量录入闭会期间积分变动",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/administrator/add-participants/administrator-add-no-meeting",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/administrator/user-points-process/user-points-process",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "积分变动信息审核",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/administrator/user-points-process/meeting-process",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/administrator/user-points-process/no-meeting-process",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/administrator/update-password-audit",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "密码修改审核",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"tabBar": {
+		"list": [{
+			"text": "人大管理系统",
+			"pagePath": "pages/index/index",
+			"selectedIconPath": "static/homeSelect.png",
+			"iconPath": "static/home.png"
+		}, {
+			"text": "我的",
+			"pagePath": "pages/my/my",
+			"selectedIconPath": "static/userInfoSelect.png",
+			"iconPath": "static/userInfo.png"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
